@@ -80,10 +80,14 @@ body {
     /* Apply animation to this element */	
     animation: example2 3s ease-out;
     font-weight: bold;
-    text-shadow: 0px 0px;
+    text-shadow: 0px 0px 0px;
     text-indent: 0px;
     -webkit-box-shadow: 0px 0px 0px;
     box-shadow: 0px 0px 0px;
+    color: #000000;
+    font-style: italic;
+    font-variant: small-caps;
+    text-transform: none;
 }
 /* Move it (define the animation) */
 @keyframes example2 {
@@ -4357,6 +4361,7 @@ input[type="button"].btn-block {
 .nav-link {
     display: f;
     padding: 0.5rem 1rem;
+    color: #000000;
 }
 
 .nav-link:hover, .nav-link:focus {
@@ -4860,11 +4865,11 @@ input[type="button"].btn-block {
     flex-direction: column;
     min-width: 0;
     word-wrap: break-word;
-    background-color: #fff;
+    background-color: #193346;
     background-clip: border-box;
-    border: 15px solid rgba(0, 0, 0, 0.125);
+    border: 15px solid rgba(255,255,255,1.00);
     border-radius: 25rem / 12.25rem 12.25rem 0rem 0rem;
-	margin-top: 25px;
+    margin-top: 25px;
 }
 
 
@@ -4904,7 +4909,7 @@ input[type="button"].btn-block {
 .card-text:last-child {
     margin-bottom: 0;
     text-align: center;
-    color: #000000;
+    color: #FFFFFF;
 }
 
 .card-link:hover {
